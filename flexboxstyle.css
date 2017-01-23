@@ -1,0 +1,107 @@
+
+/*div, p {
+  border: 1px solid red;
+	padding: 5px;
+}*/
+
+
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #5A9B9B;
+  padding: 10px;
+}
+
+
+.menu-social, .menu-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.nav p {
+  margin: 0;
+  text-align: center;
+  width: 65px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+a:hover {
+  background: #ffffff;
+  padding: 1px;
+  color: #5A9B9B;
+  border-radius: 5px;
+  font-size: 110%;
+}
+
+
+.header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.main {
+  margin-bottom: 20px;
+}
+
+
+.main h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.main-paragraph {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.main-paragraph p {
+  text-align: justify;
+  font-size: 17px;
+  width: 30%;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5A9B9B;
+  color: #ffffff;
+}
+
+
+.footer p {
+  width: 250px;
+  text-align: center;
+}
