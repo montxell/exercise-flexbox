@@ -32,7 +32,6 @@ body {
   text-align: center;
   width: 65px;
   flex-grow: 1;
-  flex-shrink: 1;
 }
 
 
@@ -64,8 +63,7 @@ a:hover {
 
 
 .main h2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 40px;
   margin: 0;
   padding-top: 20px;
@@ -102,6 +100,6 @@ a:hover {
 
 
 .footer p {
-  width: 250px;
   text-align: center;
+  width: 100%;
 }
